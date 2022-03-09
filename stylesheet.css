@@ -6,13 +6,15 @@ html
 body 
 {
     height: 100%;
-    background-color: #669ACC;
+    background-color: #5e8dba;
     text-align: center;
 }
 
-header
+.hometownpage
 {
-
+    height: 100%;
+    background-color: #cbc281;
+    text-align: center;
 }
 
 header h1
@@ -80,6 +82,22 @@ section
     border: 1px solid black;
     border-radius: 10px;
     margin: 5%;
-    padding: 50px 30px 200px 30px;
+    padding: 50px 30px 30px 30px;
     width: 150px;
+}
+
+.column li
+{
+    list-style: none;
+}
+
+.column li ul li
+{
+    list-style: circle;
+    padding: 5px
+}
+
+.bottom img
+{
+    width: 300px;
 }
