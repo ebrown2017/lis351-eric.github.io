@@ -17,6 +17,20 @@ body
     text-align: center;
 }
 
+.hobbiepage
+{
+    height: 100%;
+    background-color: #63cd7c;
+    text-align: center;
+}
+
+.aboutmepage
+{
+    height: 100%;
+    background-color: #c25f49;
+    text-align: center;
+}
+
 header h1
 {
     padding: 3%;
@@ -77,6 +91,27 @@ section
     gap: 6%;
 }
 
+.aboutmepage .column
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 10px 30px 30px 30px;
+    width: 300px;
+    height: 500px;
+    background-color: azure;
+}
+
+.aboutmepage .column dl
+{
+    text-align: left;
+}
+
+.aboutmepage .column dt
+{
+    font-weight: bold;
+}
+
 .column
 {
     border: 1px solid black;
@@ -92,11 +127,7 @@ section
     border-radius: 10px;
     margin: 5%;
     padding: 10px 30px 30px 30px;
-}
-
-.hobbiepage p
-{
-
+    background-color: rgb(115, 140, 140);
 }
 
 .homepage .column
@@ -105,6 +136,27 @@ section
     border-radius: 10px;
     margin: 5%;
     width: 100%;
+}
+
+.hometownpage .column
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 50px 30px 30px 30px;
+    width: 150px;
+    background-color: #333333
+
+}
+
+.hometownpage li
+{
+    color: #ffff
+}
+
+.hometownpage .column
+{
+    font-family: 'Courier New', Arial;
 }
 
 .column li
