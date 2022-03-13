@@ -136,6 +136,7 @@ section
     border-radius: 10px;
     margin: 5%;
     width: 100%;
+    background-color: rgb(81, 107, 118);
 }
 
 .hometownpage .column
@@ -145,13 +146,18 @@ section
     margin: 5%;
     padding: 50px 30px 30px 30px;
     width: 150px;
-    background-color: #333333
+    background-color: #333333;
+}
 
+.hometownpage .column a
+{
+    color: white;
 }
 
 .hometownpage li
 {
-    color: #ffff
+    color: #ffff;
+    text-align: left;
 }
 
 .hometownpage .column
@@ -159,9 +165,10 @@ section
     font-family: 'Courier New', Arial;
 }
 
-.column li
+.homepage .column li
 {
     list-style: none;
+    text-align: left;;
 }
 
 .column li ul li
